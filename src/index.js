@@ -23,7 +23,7 @@ class PickerColumn extends Component {
     };
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (this.state.isMoving) {
       return;
     }
